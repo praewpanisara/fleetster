@@ -92,9 +92,10 @@ h1 .input-topic {
     margin: auto;
 
 }
-.text-bar-input{
+
+.text-bar-input {
     display: grid;
-    grid-template-columns: repeat(2,140px);
+    grid-template-columns: repeat(2, 140px);
     margin-top: 50px;
     margin-bottom: 22px;
 }
@@ -107,6 +108,7 @@ p.text-input {
     font-weight: bold;
 
 }
+
 p.text {
     color: #fff;
     font-size: 12px;
@@ -127,6 +129,7 @@ input.input-location[type=text] {
     background-repeat: no-repeat;
     padding: 18px 40px;
 }
+
 input.input-start-calendar[type=text] {
     width: 200px;
     box-sizing: border-box;
@@ -139,7 +142,8 @@ input.input-start-calendar[type=text] {
     padding: 18px 20px 18px 40px;
     margin-left: 20px;
 }
-button.search{
+
+button.search {
     padding: 18px 50px;
     background-color: #82C141;
     border-radius: 2px;
@@ -150,24 +154,28 @@ button.search{
     text-transform: uppercase;
 
 }
-.section-detail{
+
+.section-detail {
     width: 670px;
     display: block;
     margin: auto;
 }
-h1.detail-topic{
-    color:#303030;
+
+h1.detail-topic {
+    color: #303030;
     text-align: center;
     font-size: 36px;
     margin-top: 150px;
 }
-p.detail-text{
+
+p.detail-text {
     font-size: 16px;
-    color:#303030;
+    color: #303030;
     text-align: center;
     margin-top: 20px;
 }
-button.button-book{
+
+button.button-book {
     padding: 18px 50px;
     background-color: #82C141;
     border-radius: 2px;
@@ -178,12 +186,14 @@ button.button-book{
     margin-top: 35px;
 
 }
+
 button.button-find {
     background-color: #fff;
     font-size: 12px;
 
 }
-button.button-find a{
+
+button.button-find a {
     padding: 18px 50px;
     background-color: #fff;
     border-radius: 2px;
@@ -197,7 +207,8 @@ button.button-find a{
     transition: .3s ease-in-out;
 
 }
-button.button-find :hover{
+
+button.button-find :hover {
     padding: 18px 50px;
     background-color: #82C141;
     border-radius: 2px;
@@ -210,34 +221,101 @@ button.button-find :hover{
     text-decoration: none;
 
 }
-.button-group{
+
+.button-group {
     text-align: center;
 }
-.section-gallery{
+
+.section-gallery {
     width: 1200px;
     display: block;
     margin: auto;
     margin-top: 165px;
 }
-h1.gallery-topic{
+
+h1.gallery-topic {
     text-align: center;
+    font-size: 40px;
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: 270px 270px auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-  }
-  .item1 img{
-      width: 270px;
-      height: 270px;
-  }
-  .item2 img{
-    width: 270px;
-    height: 270px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 35px;
+    margin-top: 60px;
 }
+
+.item1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item3 {
+    grid-column: 3/span 2;
+    grid-row: 1/span 2;
+}
+
+.item4 {
+    grid-column: span 1;
+    grid-row: 2/span 2;
+}
+
 .item5 {
-    grid-row: 2 / 4;
-    width: 270px;
-    height: 580px;
-  }
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.item6 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.item7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.gallery-car {
+    display: grid;
+    grid-template-columns: auto 200px;
+    padding-top: 240px;
+
+}
+
+h1.topic-car {
+    font-size: 40px;
+}
+
+.button-car {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    grid-gap: 12px;
+
+}
+
+button.button-prev {
+    padding: 10px 16px;
+    background-color: #F5A623;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+button.button-next {
+    padding: 10px 16px;
+    background-color: #F5A623;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+
+}
