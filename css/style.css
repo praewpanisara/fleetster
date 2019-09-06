@@ -53,14 +53,14 @@ ul.menu-left li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    list-style-type: none;
+
 }
 
 ul.menu-right li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    list-style-type: none;
+
 }
 
 .logo img {
@@ -77,6 +77,7 @@ li.button {
 
 li.bar {
     padding: 15px 0;
+    list-style: none;
 }
 
 .input-topic {
@@ -246,39 +247,185 @@ h1.gallery-topic {
     margin-top: 60px;
 }
 
+img.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 315px;
+   
+}
+
+.item1:hover .image {
+    opacity: 0.5;
+ 
+}
+
+
+.item1:hover .middle {
+    opacity: 1;
+
+}
+
+.item2:hover .image {
+    opacity: 0.5;
+
+}
+
+
+.item2:hover .middle {
+    opacity: 1;
+
+}
+
+.item3:hover .image {
+    opacity: 0.5;
+
+}
+
+
+.item3:hover .middle {
+    opacity: 1;
+
+}
+
+.item4:hover .image {
+    opacity: 0.5;
+
+}
+
+
+.item4:hover .middle {
+    opacity: 1;
+
+}
+
+.item5:hover .image {
+    opacity: 0.5;
+
+}
+
+
+.item5:hover .middle {
+    opacity: 1;
+
+}
+
+.item6:hover .image {
+    opacity: 0.5;
+   
+}
+
+
+.item6:hover .middle {
+    opacity: 1;
+
+}
+
+.item7:hover .image {
+    opacity: 0.5;
+  
+}
+
+
+.item7:hover .middle {
+    opacity: 1;
+
+}
+
+.topic-hover {
+
+    color: #fff;
+    font-size: 18px;
+}
+
+.topic1-hover {
+
+    color: #fff;
+    font-size: 22px;
+}
+
+.text-hover {
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #00A5F4;
+    padding: 12px 12px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.detail-hover {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
 .item1 {
     grid-column: span 1;
     grid-row: span 1;
+    position: relative;
+    width: 100%;
 }
 
 .item2 {
     grid-column: span 1;
     grid-row: span 1;
+    position: relative;
+    width: 100%;
 }
 
 .item3 {
     grid-column: 3/span 2;
     grid-row: 1/span 2;
+    position: relative;
+    width: 100%;
 }
 
 .item4 {
     grid-column: span 1;
     grid-row: 2/span 2;
+    position: relative;
+    width: 100%;
 }
 
 .item5 {
     grid-column: span 1;
     grid-row: span 1;
+    position: relative;
+    width: 100%;
 }
 
 .item6 {
     grid-column: span 2;
     grid-row: span 1;
+    position: relative;
+    width: 100%;
 }
 
 .item7 {
     grid-column: span 1;
     grid-row: span 1;
+    position: relative;
+    width: 100%;
 }
 
 .gallery-car {
@@ -302,6 +449,9 @@ h1.topic-car {
 button.button-prev {
     padding: 10px 16px;
     background-color: #F5A623;
+    background-image: url(../images/Shapee.png);
+    background-position: 16px 19px;
+    background-repeat: no-repeat;
     border-radius: 2px;
     font-size: 12px;
     font-weight: bold;
@@ -313,6 +463,9 @@ button.button-prev {
 button.button-next {
     padding: 10px 16px;
     background-color: #F5A623;
+    background-image: url(../images/Shape.png);
+    background-position: 70px 19px;
+    background-repeat: no-repeat;
     border-radius: 2px;
     font-size: 12px;
     font-weight: bold;
@@ -323,14 +476,20 @@ button.button-next {
 
 .photo-car {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 16px;
-    margin-top: 55px;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 50px;
+    margin-top: 100px;
 
 }
 
 .car {
     border: 1px solid #EEEEEE;
+}
+.car:hover {
+   transform: scale(1.2);
+   background-color: #fff;
+   border-top: 3px solid #F5A623;
+
 }
 
 .detail-car {
@@ -391,13 +550,16 @@ span {
 button.button-car {
     background-color: #00A5F4;
     padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
     color: #fff;
+    text-transform: uppercase;
 
 }
 
 img.icon-car {
     padding: 12px 0px;
-    padding-left: 130px;
+    padding-left: 90px;
 }
 
 .section-blog {
@@ -544,7 +706,7 @@ button.button-sign {
     width: 100%;
     height: 330px;
     background-color: #303030;
-    border-bottom: 2px solid#979797;
+    border-bottom: 1px solid#424242;
 
 }
 
@@ -582,35 +744,65 @@ select {
     background-color: #fff;
     margin-top: 8px;
 }
-select.usd{
-        width: 230px;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 2px;
-        background-color: #fff;
-        margin-top: 15px;
-    
-}
-.footer-menu{
-    display: grid;
-    grid-template-columns: repeat(3,120px);
-   grid-gap: 30px;
+
+select.usd {
+    width: 230px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-top: 15px;
 
 }
-p.footer-topic{
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 30px;
+
+}
+
+p.footer-topic {
     color: #fff;
     font-size: 16px;
     padding-bottom: 28px;
 
 }
- li{
+
+ul.footer-list li {
     list-style: none;
     color: #fff;
     font-size: 13px;
     line-height: 30px;
-  
+
 }
-ul{
+
+ul {
     padding: 0;
-    
+
+}
+
+.last-footer {
+    height: 70px;
+    width: 100%;
+    background-color: #303030;
+
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 90px 280px;
+    grid-gap: 800px;
+
+}
+
+.text-last p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.box-last {
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
 }
