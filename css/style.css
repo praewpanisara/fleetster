@@ -476,7 +476,7 @@ button.button-next {
 
 .photo-car {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 365px);
     grid-gap: 50px;
     margin-top: 100px;
 
