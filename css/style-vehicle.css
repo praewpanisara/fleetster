@@ -1,3 +1,561 @@
+.head-dropdownvehicle {
+    width: 100%;
+    height: 292px;
+    background-color: #F8F8F8;
+}
+
+.line-headvehicle {
+    width: 100%;
+    padding: none;
+    border: 0.5px solid #D0D0D0;
+    margin-top: 224px;
+}
+
+.box-carvehicle {
+    float: left;
+    width: 650px;
+    height: 180px;
+    margin-left: 155px;
+    margin-top: 80px;
+}
+
+.box-mercedesvehicle {
+    width: 405px;
+    margin-left: 245px;
+    display: grid;
+    margin-top: -12px;
+}
+
+.title-benzvehicle {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.manual {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #303030;
+}
+
+.mileage {
+    margin-top: -19px;
+    margin-left: 160px;
+    font-size: 12px;
+    color: #303030;
+}
+
+.navigation {
+    font-size: 12px;
+    color: #303030;
+}
+
+.box-limited {
+    float: right;
+    width: 340px;
+    margin-top: 60px;
+    margin-right: 186px;
+    border: 0.75px solid #E2E2E2;
+    height: 75px;
+}
+
+.img-limited {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.offer {
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.book {
+    float: right;
+    margin-right: 30px;
+    margin-top: -22px;
+    width: 240px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.box-total {
+    float: right;
+    width: 340px;
+    margin-top: -78px;
+    margin-right: 186px;
+    border: 0.75px solid #EEEEEE;
+    height: 465px;
+    box-shadow: 0 0 5px #EEEEEE;
+}
+
+.background-vehicle {
+    background-color: white;
+    width: 100%;
+    height: 900px;
+}
+
+.tal {
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.money {
+    float: right;
+    margin-top: -30px;
+    margin-right: 215px;
+    font-size: 28px;
+    color: #F5A623;
+}
+
+.includes {
+    font-size: 12px;
+    color: #7C7C7C;
+    margin-left: 20px;
+}
+
+.btn-booktal {
+    background-color: #82C141;
+    border: none;
+    color: white;
+    width: 121px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 185px;
+    margin-top: -40px;
+}
+
+.book-tal {
+    display: flex;
+}
+
+.box-pick {
+    width: 304px;
+    padding: none;
+    float: right;
+    margin-top: 50px;
+    margin-right: 17px;
+    border: 0.75px solid #DADADA;
+    height: 178px;
+    border-radius: 3px;
+}
+
+.pick-up {
+    margin-top: -7px;
+    margin-left: 8px;
+    width: 40px;
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.muc {
+    width: 274px;
+    height: 162px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.airport {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+}
+
+.serviced {
+    font-size: 13px;
+    color: #303030;
+}
+
+.hours {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+    margin-top: 15px;
+}
+
+.time {
+    font-size: 13px;
+    color: #303030;
+}
+
+.counter {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+    margin-top: 15px;
+}
+
+.rental {
+    font-size: 13px;
+    color: #303030;
+}
+
+.box-dropoff {
+    width: 304px;
+    padding: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 17px;
+    border: 0.75px solid #DADADA;
+    height: 125px;
+    border-radius: 3px;
+}
+
+.dropoff {
+    margin-top: -7px;
+    margin-left: 8px;
+    width: 40px;
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.cgn {
+    width: 264px;
+    height: 109px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.cgn-airport {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+}
+
+.kennedystrasse {
+    font-size: 13px;
+    color: #303030;
+}
+
+.cgn-hours {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+    margin-top: 15px;
+}
+
+.cgn-time {
+    font-size: 13px;
+    color: #303030;
+}
+
+.have {
+    float: right;
+    margin-top: 425px;
+    margin-right: -260px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.get {
+    float: right;
+    margin-top: 442px;
+    margin-right: -230px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.box-item {
+    width: 340px;
+    padding: none;
+    float: right;
+    margin-top: 490px;
+    margin-right: -340px;
+    border: 0.75px solid #E2E2E2;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.icon {
+    display: flex;
+}
+
+.img-iconadd {
+    margin-top: 22px;
+    margin-left: 28px;
+}
+
+.add {
+    margin-top: 22px;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.print {
+    margin-top: 22px;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.share {
+    margin-top: 22px;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.btn-report {
+    color: #303030;
+    float: right;
+    margin-right: -220px;
+    font-size: 11px;
+    line-height: 3px;
+    padding-top: 575px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.included {
+    float: left;
+    margin-top: 55px;
+    margin-left: -650px;
+    font-size: 14px;
+}
+
+.not {
+    float: left;
+    margin-top: 55px;
+    margin-left: -480px;
+    font-size: 14px;
+}
+
+.line-headtitle {
+    float: left;
+    width: 741.46px;
+    padding: none;
+    border: 0.5px solid #CFCFCF;
+    margin-top: 60px;
+    margin-left: 155px;
+}
+
+.included:hover {
+    background-color: #fff;
+    border-bottom: 5px solid #303030;
+}
+
+.not:hover {
+    background-color: #fff;
+    border-bottom: 5px solid #303030;
+}
+
+.content {
+    width: 715px;
+    height: 167px;
+    float: left;
+    margin-left: 155px;
+    margin-top: 40px;
+}
+
+.pharetra {
+    font-size: 15px;
+    color: #303030;
+    line-height: 25px;
+    width: 700px;
+    letter-spacing: 0.5px;
+}
+
+.pellentesque {
+    margin-top: 25px;
+    font-size: 15px;
+    color: #303030;
+    line-height: 25px;
+    width: 730px;
+    letter-spacing: 0.5px;
+}
+
+.accessories {
+    float: left;
+    margin-top: 270px;
+    margin-left: -715px;
+    font-size: 20px;
+    color: #303030;
+}
+
+.requests {
+    float: left;
+    margin-top: 300px;
+    margin-left: -715px;
+    font-size: 12px;
+    color: #D0021B;
+}
+
+.line-headaccessories {
+    float: left;
+    width: 741.46px;
+    padding: none;
+    border: 0.5px solid #CFCFCF;
+    margin-top: 120px;
+    margin-left: 155px;
+}
+
+.box-ski {
+    width: 139px;
+    padding: none;
+    float: right;
+    margin-top: 45px;
+    margin-right: 864px;
+    border: 0.75px solid #F2F2F2;
+    height: 100px;
+    border-radius: 3px;
+    background-color: #82C141;
+}
+
+.ski {
+    margin-top: 10px;
+    width: 70px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+}
+
+input.inp-ski[type=checkbox]:not(old) {
+    width: 20px;
+    margin-left: 15px;
+    padding: 0;
+    font-size: 15px;
+    opacity: 0;
+}
+
+input.inp-ski[type=checkbox]:not(old)+label {
+    display: inline-block;
+    margin-left: -20px;
+    line-height: 10px;
+}
+
+input.inp-ski[type=checkbox]:not(old)+label>span {
+    display: inline-block;
+    width: 15px;
+    margin-left: 90px;
+    height: 15px;
+    margin-top: 15px;
+    border: 0.5px solid #F2F2F2;
+    border-radius: 2px;
+    background: #82C141;
+    background-image: -moz-linear-gradient(#82C141, #82C141);
+    background-image: -ms-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: -o-linear-gradient(#82C141, #82C141);
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: linear-gradient(#82C141, #82C141);
+    vertical-align: bottom;
+}
+
+input.inp-ski[type=checkbox]:not(old):checked+label>span:before {
+    content: '✓';
+    display: block;
+    width: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: 0 0 1px #FFFFFF;
+    font-weight: bold;
+}
+
+.box-infant {
+    width: 139px;
+    padding: none;
+    float: right;
+    margin-top: -100px;
+    margin-right: 1220px;
+    border: 0.75px solid #F2F2F2;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.infant {
+    margin-top: 10px;
+    width: 70px;
+    font-size: 14px;
+    color: #707070;
+    line-height: 19px;
+}
+
+input.inp-infant[type=checkbox]:not(old) {
+    width: 20px;
+    margin-left: 15px;
+    padding: 0;
+    font-size: 15px;
+    opacity: 0;
+}
+
+input.inp-infant[type=checkbox]:not(old)+label {
+    display: inline-block;
+    margin-left: -20px;
+    line-height: 10px;
+}
+
+input.inp-infant[type=checkbox]:not(old)+label>span {
+    display: inline-block;
+    width: 15px;
+    margin-left: 90px;
+    height: 15px;
+    margin-top: 15px;
+    border: 0.5px solid #F2F2F2;
+    border-radius: 2px;
+    background: #FFFFFF;
+    background-image: -moz-linear-gradient(#FFFFFF, #FFFFFF);
+    background-image: -ms-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: -o-linear-gradient(#FFFFFF, #FFFFFF);
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: linear-gradient(#FFFFFF, #FFFFFF);
+    vertical-align: bottom;
+}
+
+input.inp-infant[type=checkbox]:not(old):checked+label>span:before {
+    content: '✓';
+    display: block;
+    width: 15px;
+    color: #82C141;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: 0 0 1px #82C141;
+    font-weight: bold;
+}
+
+.box-toddler {
+    width: 139px;
+    padding: none;
+    float: right;
+    margin-top: -101px;
+    margin-right: 1045px;
+    border: 0.75px solid #F2F2F2;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.box-snow {
+    width: 139px;
+    padding: none;
+    float: right;
+    margin-top: -102px;
+    margin-right: 872px;
+    border: 0.75px solid #F2F2F2;
+    height: 100px;
+    border-radius: 3px;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -30,7 +588,7 @@ p {
 .list-blog {
     background-color: #fff;
     width: 230px;
-    box-shadow:  0 0 5px rgba(128, 128, 128, 0.521);
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.521);
 }
 
 .detail-blog {
