@@ -486,7 +486,11 @@ button.button-next {
     border: 1px solid #EEEEEE;
 }
 .car:hover {
+<<<<<<< HEAD
    transform: scale(0.2);
+=======
+   transform: scale(1.2);
+>>>>>>> master
    background-color: #fff;
    border-top: 3px solid #F5A623;
 
