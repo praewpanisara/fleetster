@@ -1,0 +1,983 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    font-size: 12px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  ul .item-about {
+    margin-left: 118px;
+  }
+  
+  ul .logo-head {
+    margin-left: 250px;
+  }
+  
+  ul .btn {
+    background-color: #00A5F4;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 18px 4px;
+    cursor: pointer;
+    margin-right: 119px;
+  }
+  
+  .headder {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .bg {
+    background-color: white;
+    width: 100%;
+    height: 3800px;
+  }
+  
+  .head-dropdown {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .head-refinesearch {
+    display: flex;
+  }
+  
+  .inp-head {
+    margin-left: 210px;
+    margin-top: 5px;
+  }
+  
+  .dropbtn {
+    background-color: white;
+    padding: none;
+    border: 1px solid #A3A3A3;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border-radius: 3px;
+  }
+  
+  .dropdown-pickup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: none;
+    text-decoration: none;
+    display: block;
+    width: 350px;
+    height: 50px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-drop {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .dropdown-duration {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .pickup {
+    margin-top: -20px;
+    color: #7C7C7C;
+    font-size: 10px;
+    width: 50px;
+    background-color: white;
+  }
+  
+  .munich {
+    margin-top: 13px;
+    font-size: 13px;
+    color: #303030;
+    margin-right: 20px;
+  }
+  
+  .drop-off {
+    margin-top: -20px;
+    color: #7C7C7C;
+    font-size: 10px;
+    width: 60px;
+    background-color: white;
+  }
+  
+  .dropbtn-duration {
+    background-color: white;
+    padding: none;
+    border: 1px solid #A3A3A3;
+    cursor: pointer;
+    width: 192px;
+    height: 50px;
+    border-radius: 3px;
+  }
+  
+  .duration {
+    margin-top: -20px;
+    color: #7C7C7C;
+    font-size: 10px;
+    width: 60px;
+    background-color: white;
+  }
+  
+  .days {
+    margin-top: 13px;
+    font-size: 13px;
+    color: #303030;
+    margin-right: 20px;
+  }
+  
+  .img-days {
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+  
+  .days {
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+  
+  .img-days3 {
+    margin-left: 75px;
+    margin-top: 4px;
+  }
+  
+  .img-munich {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  
+  .img-pickup {
+    margin-left: 5px;
+  }
+  
+  .button {
+    color: #82C141;
+    text-align: right;
+    font-size: 12px;
+    margin-left: 40px;
+    line-height: 3px;
+    padding-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .line-head {
+    width: 100%;
+    padding: none;
+    border: 0.5px solid rgb(172, 172, 172);
+    margin-top: 20px;
+  }
+  
+  .box-filters {
+    width: 260px;
+    padding: none;
+    margin-top: 60px;
+    border: 0.75px solid #F3F3F3;
+    margin-left: 120px;
+    height: 1050px;
+  }
+  
+  .title-filters {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #303030;
+  }
+  
+  .img-filters {
+    margin-right: 135px;
+  }
+  
+  .type {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 14px;
+  }
+  
+  .img-type {
+    margin-top: 5px;
+    margin-right: 25px;
+  }
+  
+  .list-economy {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  input[type=checkbox]:not(old) {
+    width: 20px;
+    margin-left: 15px;
+    padding: 0;
+    font-size: 15px;
+    opacity: 0;
+  }
+  
+  input[type=checkbox]:not(old)+label {
+    display: inline-block;
+    margin-left: -20px;
+    line-height: 10px;
+  }
+  
+  input[type=checkbox]:not(old)+label>span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 4px 4px 4px 4px;
+    border: 0.5px solid #686565;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    background-image: -moz-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -ms-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: -o-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    vertical-align: bottom;
+  }
+  
+  input[type=checkbox]:not(old):checked+label>span:before {
+    content: '✓';
+    display: block;
+    width: 15px;
+    color: rgb(153, 204, 102);
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(115, 153, 77);
+    font-weight: bold;
+  }
+  
+  .economy {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .compact {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-compact {
+    margin-top: -20px;
+  }
+  
+  .midsize {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-midsize {
+    margin-top: 5px;
+  }
+  
+  .standard {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-standard {
+    margin-top: 5px;
+  }
+  
+  .fullsize {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-fullsize {
+    margin-top: 5px;
+  }
+  
+  .premium {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-premium {
+    margin-top: 5px;
+  }
+  
+  .luxury {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-luxury {
+    margin-top: 5px;
+  }
+  
+  .convertible {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-convertible {
+    margin-top: 5px;
+  }
+  
+  .minivan {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-minivan {
+    margin-top: 5px;
+  }
+  
+  .sport {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-sport {
+    margin-top: 5px;
+  }
+  
+  .sports {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-sports {
+    margin-top: 5px;
+  }
+  
+  .line-price {
+    width: 90%;
+    padding: none;
+    border: 1px solid #F3F3F3;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .price {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 14px;
+  }
+  
+  .img-price {
+    margin-top: 5px;
+    margin-right: 25px;
+  }
+  
+  .money50 {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-money50 {
+    margin-top: 25px;
+  }
+  
+  .money100 {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-money100 {
+    margin-top: 5px;
+  }
+  
+  .money200 {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .list-money200 {
+    margin-top: 5px;
+  }
+  
+  .money500 {
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #303030;
+  }
+  
+  .list-money500 {
+    margin-top: 5px;
+  }
+  
+  .line-party {
+    width: 90%;
+    padding: 0.7px;
+    border: 0.1px solid #F3F3F3;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+  
+  .party {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .line-specifications {
+    width: 90%;
+    padding: 0.7px;
+    border: 0.1px solid #F3F3F3;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .specifications {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .line-end {
+    width: 90%;
+    padding: 0.7px;
+    border: 0.1px solid #F3F3F3;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .frame-content {
+    width: 860px;
+    height: 2953px;
+    margin-right: auto;
+    margin-left: 400px;
+    margin-top: -1050px;
+  }
+  
+  .title-cars {
+    margin-top: -1055px;
+    font-size: 24px;
+  }
+  
+  .sortby {
+    float: right;
+    margin-right: 215px;
+    margin-top: -825px;
+    font-size: 13px;
+    color: #303030;
+  }
+  
+  .box-price {
+    float: right;
+    width: 196px;
+    padding: none;
+    margin-top: 0;
+    margin-right: 0;
+    border: 0.75px solid #F3F3F3;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: -835px;
+  }
+  
+  .price-low {
+    font-size: 13px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  
+  .img-price {
+    margin-left: 50px;
+    margin-right: 10px;
+    float: right;
+  }
+  
+  .box-cars {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: -775px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  
+  .box-mercedes {
+    width: 255px;
+    margin-left: 235px;
+    display: grid;
+  }
+  
+  .title-benz {
+    float: right;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .sedan {
+    float: left;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #7C7C7C;
+  }
+  
+  .this {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 'Regular'
+  }
+  
+  .img-this {
+    margin-right: 15px;
+  }
+  
+  .unlimited {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #303030;
+  }
+  
+  .sat {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #303030;
+  }
+  
+  .line-benz {
+    width: 1px;
+    padding: 0.05px;
+    border: 0.02px solid #F3F3F3;
+    margin-left: 530px;
+    margin-top: -168px;
+    height: 170px;
+  }
+  
+  .box-your {
+    width: 300px;
+    height: 136px;
+    margin-left: 510px;
+    margin-top: -60px;
+  }
+  
+  .box-pricing {
+    width: 200px;
+    padding: none;
+    float: right;
+    margin-top: -90px;
+    border: 0.75px solid #A3A3A3;
+    height: 68px;
+    margin-right: 45px;
+    border-radius: 3px;
+  }
+  
+  .yourpricing {
+    margin-top: -7px;
+    margin-left: 58px;
+    width: 80px;
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .money36 {
+    font-size: 26px;
+    color: #F5A623;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .per {
+    font-size: 13px;
+    color: #303030;
+    margin-top: -3px;
+  }
+  
+  .img-money36 {
+    margin-left: 80px;
+    margin-top: -47px;
+  }
+  
+  .money149 {
+    float: right;
+    margin-top: -58.5px;
+    margin-right: 18px;
+  }
+  
+  .total {
+    font-size: 13px;
+    color: #303030;
+    margin-top: -3px;
+  }
+  
+  .btn-book {
+    background-color: #82C141;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: -50px;
+  }
+  
+  .book {
+    margin-left: 52.5px;
+  }
+  
+  .box-car2 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: -485px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  
+  .box-volkswagen {
+    width: 255px;
+    margin-left: 235px;
+    display: grid;
+  }
+  
+  .title-volkswagen {
+    float: right;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .estate {
+    float: left;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #7C7C7C;
+  }
+  
+  .box-car3 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: -195px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-intermediate {
+    width: 255px;
+    margin-left: 235px;
+    display: grid;
+  }
+  .title-intermediate {
+    float: right;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box-car4 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car5 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car6 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car7 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car8 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car9 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car10 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car11 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-car12 {
+    float: left;
+    width: 760px;
+    padding: 50px;
+    margin-top: 25px;
+    margin-right: -160px;
+    border: 0.75px solid #F3F3F3;
+    height: 165px;
+  }
+  .box-cars:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car2:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car3:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car4:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car5:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car6:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car7:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car8:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car9:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car2:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car10:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car11:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .box-car12:hover {
+    background-color: #fff;
+    border-left: 5px solid #00A5F4;
+  }
+  .section-footer {
+    width: 100%;
+    height: 330px;
+    background-color: #303030;
+    border-bottom: 1px solid#424242;
+  }
+  .footer-logo img {
+    width: 140px;
+    height: 30px;
+    display: block;
+    margin: auto;
+  }
+  .footer-logo {
+    padding-top: 55px;
+  }
+  .footer-detail {
+    display: grid;
+    width: 1100px;
+    grid-template-columns: auto 420px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .footer-text p {
+    color: #fff;
+    font-size: 13px;
+  }
+  select {
+    width: 230px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-top: 8px;
+  }
+  select.usd {
+    width: 230px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-top: 15px;
+  }
+  .footer-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 30px;
+  }
+  p.footer-topic {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 28px;
+  }
+  ul.footer-list li {
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+  
+  }
+  ul {
+    padding: 0;
+  }
+  .last-footer {
+    height: 70px;
+    width: 100%;
+    background-color: #303030;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 90px 280px;
+    grid-gap: 800px;
+  }
+  .text-last p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .box-last {
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+  }
