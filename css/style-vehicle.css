@@ -66,6 +66,10 @@ ul {
   .head-refinesearch {
     display: flex;
   }
+  .inp-head {
+    margin-left: 210px;
+    margin-top: 5px;
+}
   .dropbtn {
     background-color: white;
     padding: none;
@@ -204,91 +208,91 @@ ul {
     cursor: pointer;
     font-weight: bold;
   }
-.head-dropdownvehicle {
+  .head-dropdownvehicle {
     width: 100%;
     height: 292px;
     background-color: #F8F8F8;
-}
-
-.line-headvehicle {
+  }
+  
+  .line-headvehicle {
     width: 100%;
     padding: none;
     border: 0.5px solid #D0D0D0;
     margin-top: 224px;
-}
-
-.box-carvehicle {
+  }
+  
+  .box-carvehicle {
     float: left;
     width: 650px;
     height: 180px;
     margin-left: 155px;
     margin-top: 80px;
-}
-
-.box-mercedesvehicle {
+  }
+  
+  .box-mercedesvehicle {
     width: 405px;
     margin-left: 245px;
     display: grid;
     margin-top: -12px;
-}
-
-.title-benzvehicle {
+  }
+  
+  .title-benzvehicle {
     float: right;
     font-size: 24px;
     font-weight: bold;
-}
-
-.manual {
+  }
+  
+  .manual {
     margin-top: 25px;
     font-size: 12px;
     color: #303030;
-}
-
-.mileage {
+  }
+  
+  .mileage {
     margin-top: -19px;
     margin-left: 160px;
     font-size: 12px;
     color: #303030;
-}
-
-.navigation {
+  }
+  
+  .navigation {
     font-size: 12px;
     color: #303030;
-}
-
-.box-limited {
+  }
+  
+  .box-limited {
     float: right;
     width: 340px;
     margin-top: 60px;
     margin-right: 186px;
     border: 0.75px solid #E2E2E2;
     height: 75px;
-}
-
-.img-limited {
+  }
+  
+  .img-limited {
     margin-top: 20px;
     margin-left: 20px;
-}
-
-.offer {
+  }
+  
+  .offer {
     float: right;
     margin-right: 120px;
     margin-top: 20px;
     width: 150px;
     font-size: 14px;
     color: #303030;
-}
-
-.book {
+  }
+  
+  .book {
     float: right;
     margin-right: 30px;
     margin-top: -22px;
     width: 240px;
     font-size: 14px;
     color: #303030;
-}
-
-.box-total {
+  }
+  
+  .box-total {
     float: right;
     width: 340px;
     margin-top: -78px;
@@ -296,36 +300,36 @@ ul {
     border: 0.75px solid #EEEEEE;
     height: 465px;
     box-shadow: 0 0 5px #EEEEEE;
-}
-
-.background-vehicle {
+  }
+  
+  .background-vehicle {
     background-color: white;
     width: 100%;
     height: 900px;
-}
-
-.tal {
+  }
+  
+  .tal {
     margin-top: 22px;
     margin-left: 20px;
     font-size: 14px;
     color: #303030;
-}
-
-.money {
+  }
+  
+  .money {
     float: right;
     margin-top: -30px;
     margin-right: 215px;
     font-size: 28px;
     color: #F5A623;
-}
-
-.includes {
+  }
+  
+  .includes {
     font-size: 12px;
     color: #7C7C7C;
     margin-left: 20px;
-}
-
-.btn-booktal {
+  }
+  
+  .btn-booktal {
     background-color: #82C141;
     border: none;
     color: white;
@@ -340,13 +344,13 @@ ul {
     border-radius: 3px;
     margin-left: 185px;
     margin-top: -40px;
-}
-
-.book-tal {
+  }
+  
+  .book-tal {
     display: flex;
-}
-
-.box-pick {
+  }
+  
+  .box-pick {
     width: 304px;
     padding: none;
     float: right;
@@ -355,9 +359,9 @@ ul {
     border: 0.75px solid #DADADA;
     height: 178px;
     border-radius: 3px;
-}
-
-.pick-up {
+  }
+  
+  .pick-up {
     margin-top: -7px;
     margin-left: 8px;
     width: 40px;
@@ -365,51 +369,51 @@ ul {
     font-size: 10px;
     text-align: center;
     color: #7C7C7C;
-}
-
-.muc {
+  }
+  
+  .muc {
     width: 274px;
     height: 162px;
     margin-left: 12px;
     margin-top: 10px;
-}
-
-.airport {
+  }
+  
+  .airport {
     font-size: 13px;
     color: #303030;
     font-weight: Bold;
-}
-
-.serviced {
+  }
+  
+  .serviced {
     font-size: 13px;
     color: #303030;
-}
-
-.hours {
-    font-size: 13px;
-    color: #303030;
-    font-weight: Bold;
-    margin-top: 15px;
-}
-
-.time {
-    font-size: 13px;
-    color: #303030;
-}
-
-.counter {
+  }
+  
+  .hours {
     font-size: 13px;
     color: #303030;
     font-weight: Bold;
     margin-top: 15px;
-}
-
-.rental {
+  }
+  
+  .time {
     font-size: 13px;
     color: #303030;
-}
-
-.box-dropoff {
+  }
+  
+  .counter {
+    font-size: 13px;
+    color: #303030;
+    font-weight: Bold;
+    margin-top: 15px;
+  }
+  
+  .rental {
+    font-size: 13px;
+    color: #303030;
+  }
+  
+  .box-dropoff {
     width: 304px;
     padding: none;
     float: right;
@@ -418,9 +422,9 @@ ul {
     border: 0.75px solid #DADADA;
     height: 125px;
     border-radius: 3px;
-}
-
-.dropoff {
+  }
+  
+  .dropoff {
     margin-top: -7px;
     margin-left: 8px;
     width: 40px;
@@ -428,55 +432,55 @@ ul {
     font-size: 10px;
     text-align: center;
     color: #7C7C7C;
-}
-
-.cgn {
+  }
+  
+  .cgn {
     width: 264px;
     height: 109px;
     margin-left: 12px;
     margin-top: 10px;
-}
-
-.cgn-airport {
+  }
+  
+  .cgn-airport {
     font-size: 13px;
     color: #303030;
     font-weight: Bold;
-}
-
-.kennedystrasse {
+  }
+  
+  .kennedystrasse {
     font-size: 13px;
     color: #303030;
-}
-
-.cgn-hours {
+  }
+  
+  .cgn-hours {
     font-size: 13px;
     color: #303030;
     font-weight: Bold;
     margin-top: 15px;
-}
-
-.cgn-time {
+  }
+  
+  .cgn-time {
     font-size: 13px;
     color: #303030;
-}
-
-.have {
+  }
+  
+  .have {
     float: right;
     margin-top: 425px;
     margin-right: -260px;
     font-size: 14px;
     color: #303030;
-}
-
-.get {
+  }
+  
+  .get {
     float: right;
     margin-top: 442px;
     margin-right: -230px;
     font-size: 14px;
     color: #303030;
-}
-
-.box-item {
+  }
+  
+  .box-item {
     width: 340px;
     padding: none;
     float: right;
@@ -485,42 +489,42 @@ ul {
     border: 0.75px solid #E2E2E2;
     height: 60px;
     border-radius: 3px;
-}
-
-.icon {
+  }
+  
+  .icon {
     display: flex;
-}
-
-.img-iconadd {
+  }
+  
+  .img-iconadd {
     margin-top: 22px;
     margin-left: 28px;
-}
-
-.add {
+  }
+  
+  .add {
     margin-top: 22px;
     margin-left: 10px;
     letter-spacing: 0.5px;
     font-size: 14px;
     color: #303030;
-}
-
-.print {
+  }
+  
+  .print {
     margin-top: 22px;
     margin-left: 10px;
     letter-spacing: 0.5px;
     font-size: 14px;
     color: #303030;
-}
-
-.share {
+  }
+  
+  .share {
     margin-top: 22px;
     margin-left: 10px;
     letter-spacing: 0.5px;
     font-size: 14px;
     color: #303030;
-}
-
-.btn-report {
+  }
+  
+  .btn-report {
     color: #303030;
     float: right;
     margin-right: -220px;
@@ -530,126 +534,112 @@ ul {
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.5px;
-}
-
-.included {
+  }
+  .included {
     float: left;
     margin-top: 55px;
     margin-left: -650px;
     font-size: 14px;
-}
-
-.not {
+  }
+  .not {
     float: left;
     margin-top: 55px;
     margin-left: -480px;
     font-size: 14px;
-}
-
-.line-headtitle {
+  }
+  .line-headtitle {
     float: left;
     width: 741.46px;
     padding: none;
     border: 0.5px solid #CFCFCF;
     margin-top: 60px;
     margin-left: 155px;
-}
-
-.included:hover {
+  }
+  .included:hover {
     background-color: #fff;
-    border-bottom: 5px solid #303030;
-}
-
-.not:hover {
+    border-bottom:5px solid #303030;
+  }
+  .not:hover {
     background-color: #fff;
-    border-bottom: 5px solid #303030;
-}
-
-.content {
+    border-bottom:5px solid #303030;
+  }
+  .content {
     width: 715px;
     height: 167px;
     float: left;
     margin-left: 155px;
     margin-top: 40px;
-}
-
-.pharetra {
+  }
+  .pharetra {
     font-size: 15px;
     color: #303030;
     line-height: 25px;
     width: 700px;
     letter-spacing: 0.5px;
-}
-
-.pellentesque {
+  }
+  .pellentesque{
     margin-top: 25px;
     font-size: 15px;
     color: #303030;
     line-height: 25px;
     width: 730px;
     letter-spacing: 0.5px;
-}
-
-.accessories {
+  }
+  .accessories {
     float: left;
     margin-top: 270px;
     margin-left: -715px;
     font-size: 20px;
     color: #303030;
-}
-
-.requests {
+  }
+  .requests {
     float: left;
     margin-top: 300px;
     margin-left: -715px;
     font-size: 12px;
     color: #D0021B;
-}
-
-.line-headaccessories {
+  }
+  .line-headaccessories {
     float: left;
     width: 741.46px;
     padding: none;
     border: 0.5px solid #CFCFCF;
     margin-top: 120px;
     margin-left: 155px;
-}
-
-.box-ski {
+  }
+  .box-ski {
     width: 139px;
     padding: none;
     float: right;
     margin-top: 45px;
-    margin-right: 864px;
+    margin-right: 1225px;
     border: 0.75px solid #F2F2F2;
     height: 100px;
     border-radius: 3px;
     background-color: #82C141;
-}
-
-.ski {
+  }
+  .ski {
     margin-top: 10px;
     width: 70px;
     font-size: 14px;
     color: #FFFFFF;
     line-height: 19px;
-}
-
-input.inp-ski[type=checkbox]:not(old) {
+  }
+  input.inp-ski[type=checkbox]:not(old) {
     width: 20px;
     margin-left: 15px;
     padding: 0;
     font-size: 15px;
     opacity: 0;
-}
-
-input.inp-ski[type=checkbox]:not(old)+label {
+  }
+  
+  input.inp-ski[type=checkbox]:not(old)+label {
     display: inline-block;
     margin-left: -20px;
     line-height: 10px;
-}
-
-input.inp-ski[type=checkbox]:not(old)+label>span {
+  }
+  
+  input.inp-ski[type=checkbox]:not(old)+label>span {
     display: inline-block;
     width: 15px;
     margin-left: 90px;
@@ -660,13 +650,13 @@ input.inp-ski[type=checkbox]:not(old)+label>span {
     background: #82C141;
     background-image: -moz-linear-gradient(#82C141, #82C141);
     background-image: -ms-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
-    background-image: -o-linear-gradient(#82C141, #82C141);
+    background-image: -o-linear-gradient(#82C141,#82C141);
     background-image: -webkit-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
     background-image: linear-gradient(#82C141, #82C141);
     vertical-align: bottom;
-}
-
-input.inp-ski[type=checkbox]:not(old):checked+label>span:before {
+  }
+  
+  input.inp-ski[type=checkbox]:not(old):checked+label>span:before {
     content: '✓';
     display: block;
     width: 15px;
@@ -676,42 +666,39 @@ input.inp-ski[type=checkbox]:not(old):checked+label>span:before {
     text-align: center;
     text-shadow: 0 0 1px #FFFFFF;
     font-weight: bold;
-}
-
-.box-infant {
+  }
+  .box-infant {
     width: 139px;
     padding: none;
     float: right;
     margin-top: -100px;
-    margin-right: 1220px;
+    margin-right: 1054px;
     border: 0.75px solid #F2F2F2;
     height: 100px;
     border-radius: 3px;
-}
-
-.infant {
+  }
+  .infant {
     margin-top: 10px;
     width: 70px;
     font-size: 14px;
     color: #707070;
     line-height: 19px;
-}
-
-input.inp-infant[type=checkbox]:not(old) {
+  }
+  input.inp-infant[type=checkbox]:not(old) {
     width: 20px;
     margin-left: 15px;
     padding: 0;
     font-size: 15px;
     opacity: 0;
-}
-
-input.inp-infant[type=checkbox]:not(old)+label {
+  }
+  
+  input.inp-infant[type=checkbox]:not(old)+label {
     display: inline-block;
     margin-left: -20px;
     line-height: 10px;
-}
-
-input.inp-infant[type=checkbox]:not(old)+label>span {
+  }
+  
+  input.inp-infant[type=checkbox]:not(old)+label>span {
     display: inline-block;
     width: 15px;
     margin-left: 90px;
@@ -722,13 +709,13 @@ input.inp-infant[type=checkbox]:not(old)+label>span {
     background: #FFFFFF;
     background-image: -moz-linear-gradient(#FFFFFF, #FFFFFF);
     background-image: -ms-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
-    background-image: -o-linear-gradient(#FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(#FFFFFF,#FFFFFF);
     background-image: -webkit-linear-gradient(rgb(255, 255, 255rgb(255, 255, 255)4));
     background-image: linear-gradient(#FFFFFF, #FFFFFF);
     vertical-align: bottom;
-}
-
-input.inp-infant[type=checkbox]:not(old):checked+label>span:before {
+  }
+  
+  input.inp-infant[type=checkbox]:not(old):checked+label>span:before {
     content: '✓';
     display: block;
     width: 15px;
@@ -738,29 +725,27 @@ input.inp-infant[type=checkbox]:not(old):checked+label>span:before {
     text-align: center;
     text-shadow: 0 0 1px #82C141;
     font-weight: bold;
-}
-
-.box-toddler {
+  }
+  .box-toddler {
     width: 139px;
     padding: none;
     float: right;
-    margin-top: -101px;
-    margin-right: 1045px;
+    margin-top: -100px;
+    margin-right: 882px;
     border: 0.75px solid #F2F2F2;
     height: 100px;
     border-radius: 3px;
-}
-
-.box-snow {
+  }
+  .box-snow {
     width: 139px;
     padding: none;
     float: right;
-    margin-top: -102px;
-    margin-right: 872px;
+    margin-top: -100px;
+    margin-right: 709px;
     border: 0.75px solid #F2F2F2;
     height: 100px;
     border-radius: 3px;
-}
+  }
 
 * {
     margin: 0;
@@ -802,7 +787,7 @@ p {
     font-size: 18px;
 }
 
-span {
+span.economy {
     padding-left: 12px;
     font-size: 12px;
     color: #7C7C7C;
